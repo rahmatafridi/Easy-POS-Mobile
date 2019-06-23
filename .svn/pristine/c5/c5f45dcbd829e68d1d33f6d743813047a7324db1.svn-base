@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="76ef9b175e8049c89e943bebfb06bec4" Name="Diagram1">
+        <EntityTypeShape EntityType="PointOfSaleModel.ApplicationLogging" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.AssignedPermission" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.AvailablePermission" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Category" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Color" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Customer" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.ItemPurchaseDetail" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.ItemPurchaseMain" Width="1.5" PointX="6.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Item" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Location" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.SaleMain" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.SellingItem" Width="1.5" PointX="4.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Size" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.UnitOfMeasure" Width="1.5" PointX="6.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.User" Width="1.5" PointX="8.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.UserTypeLookup" Width="1.5" PointX="10.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Vendor" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Warehouse" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.WarehouseTransfer" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.WarehouseTransferMain" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PointOfSaleModel.SubCategory" Width="1.5" PointX="11.375" PointY="14.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.Barcode" Width="1.5" PointX="13.375" PointY="14.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.EntryTypeLookUp" Width="1.5" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.PaymentMethodsLookup" Width="1.5" PointX="15.375" PointY="3.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.sysdiagram" Width="1.5" PointX="15.375" PointY="6.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.VendorPaymentLog" Width="1.5" PointX="3.375" PointY="15.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.VendorPayment" Width="1.5" PointX="5.375" PointY="15.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.CustomerPaymentLog" Width="1.5" PointX="7.375" PointY="15.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.CustomerPayment" Width="1.5" PointX="15.375" PointY="9.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.DiscountOnBrand" Width="1.5" PointX="15.375" PointY="15.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.ClientDetail" Width="1.5" PointX="17.375" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.RefundMain" Width="1.5" PointX="17.375" PointY="9.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.RefundDetail" Width="1.5" PointX="17.375" PointY="3.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.SaleDetail" Width="1.5" PointX="17.375" PointY="15.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.VendorRefundDetail" Width="1.5" PointX="0.75" PointY="18.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.VendorRefundMain" Width="1.5" PointX="9.375" PointY="18.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.DailyExpense" Width="1.5" PointX="19.375" PointY="0.75" />
+        <EntityTypeShape EntityType="PointOfSaleModel.PersonalAccount" Width="1.5" PointX="19.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

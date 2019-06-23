@@ -1,0 +1,947 @@
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\ApplicationInsights.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csc.exe
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csc.exe.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csc.rsp
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csi.exe
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csi.exe.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\csi.rsp
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.AppContext.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Console.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.IO.Compression.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Claims.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.ValueTuple.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\vbc.exe
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\vbc.exe.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\vbc.rsp
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\VBCSCompiler.exe
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\PointOfSale.dll.config
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\PointOfSale.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\PointOfSale.pdb
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Antlr3.Runtime.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\EntityFramework.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\EntityFramework.SqlServer.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.Web.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Newtonsoft.Json.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Helpers.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Mvc.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Optimization.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Razor.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.Razor.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\WebGrease.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Antlr3.Runtime.pdb
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\EntityFramework.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\EntityFramework.SqlServer.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.Web.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\Newtonsoft.Json.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Optimization.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Razor.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Webpages.Razor.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Helpers.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\bin\System.Web.Mvc.xml
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\obj\Release\PointOfSale.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\PointOfSale\obj\Release\PointOfSale.pdb
+D:\SVN\BismillahMobile\PointOfSale\bin\ApplicationInsights.config
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csc.exe
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csc.exe.config
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csc.rsp
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csi.exe
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csi.exe.config
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\csi.rsp
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Console.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe.config
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\vbc.rsp
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+D:\SVN\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN\BismillahMobile\PointOfSale\bin\PointOfSale.dll.config
+D:\SVN\BismillahMobile\PointOfSale\bin\PointOfSale.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\PointOfSale.pdb
+D:\SVN\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\EntityFramework.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Logger.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Helpers.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Mvc.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Optimization.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Razor.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\WebGrease.dll
+D:\SVN\BismillahMobile\PointOfSale\bin\Logger.pdb
+D:\SVN\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+D:\SVN\BismillahMobile\PointOfSale\bin\EntityFramework.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Optimization.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Razor.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Helpers.xml
+D:\SVN\BismillahMobile\PointOfSale\bin\System.Web.Mvc.xml
+D:\SVN\BismillahMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+D:\SVN\BismillahMobile\PointOfSale\obj\Release\PointOfSale.dll
+D:\SVN\BismillahMobile\PointOfSale\obj\Release\PointOfSale.pdb
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\ApplicationInsights.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.rsp
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.rsp
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Console.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.rsp
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll.config
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.pdb
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\WebGrease.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.pdb
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.xml
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.dll
+D:\SVN Ex\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\ApplicationInsights.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.rsp
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.rsp
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Console.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.rsp
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll.config
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\WebGrease.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.xml
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\ApplicationInsights.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.exe.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csc.rsp
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.exe.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\csi.rsp
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Console.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\vbc.rsp
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll.config
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\PointOfSale.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\WebGrease.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Logger.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Optimization.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Razor.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Helpers.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\bin\System.Web.Mvc.xml
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\PointOfSale\obj\Release\PointOfSale.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\ApplicationInsights.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csc.exe
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csc.exe.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csc.rsp
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csi.exe
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csi.exe.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\csi.rsp
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Console.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\vbc.exe.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\vbc.rsp
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\PointOfSale.dll.config
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\PointOfSale.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\PointOfSale.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\EntityFramework.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Logger.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Helpers.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Mvc.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Optimization.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Razor.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\WebGrease.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Logger.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\EntityFramework.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\Newtonsoft.Json.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Optimization.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Razor.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Helpers.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\bin\System.Web.Mvc.xml
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\obj\Release\PointOfSale.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\PointOfSale\obj\Release\PointOfSale.pdb
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\ApplicationInsights.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.rsp
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.rsp
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Console.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.rsp
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll.config
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.pdb
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Logger.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\WebGrease.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Logger.pdb
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.xml
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.dll
+D:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.pdb
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\ApplicationInsights.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csc.rsp
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\csi.rsp
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Console.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.rsp
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll.config
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\PointOfSale.pdb
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Logger.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\WebGrease.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Logger.pdb
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.xml
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.dll
+E:\NewWebixoft\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.pdb
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\ApplicationInsights.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.rsp
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.rsp
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Console.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.rsp
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll.config
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.pdb
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Logger.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\WebGrease.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Logger.pdb
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.xml
+C:\MyProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+C:\MyProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.dll
+C:\MyProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.pdb
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\ApplicationInsights.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.exe.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csc.rsp
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.exe.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\csi.rsp
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.AppContext.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Collections.Immutable.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Console.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.Process.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Compression.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.IO.Pipes.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Reflection.Metadata.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.AccessControl.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Claims.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Security.Principal.Windows.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Threading.Thread.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.ValueTuple.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XmlDocument.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.exe.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\vbc.rsp
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\roslyn\VBCSCompiler.exe.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll.config
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\PointOfSale.pdb
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Logger.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Agent.Intercept.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.Web.Infrastructure.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\WebGrease.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Logger.pdb
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Antlr3.Runtime.pdb
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\EntityFramework.SqlServer.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.DependencyCollector.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.Web.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.AI.WindowsServer.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.ApplicationInsights.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\Newtonsoft.Json.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Optimization.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Razor.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Deployment.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Webpages.Razor.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Helpers.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\bin\System.Web.Mvc.xml
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.csprojResolveAssemblyReference.cache
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.dll
+C:\MyProject\DotNetProject\EasyPOSMobile\PointOfSale\obj\Release\PointOfSale.pdb

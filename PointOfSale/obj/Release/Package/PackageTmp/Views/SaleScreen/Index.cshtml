@@ -1,0 +1,475 @@
+﻿@{
+    ViewBag.Title = "Sale Screen";
+}
+
+<style>
+    .myrow {
+        margin-top: 5px;
+    }
+
+    .chosen-container-single {
+        width: 150px !important;
+    }
+
+    .ui-autocomplete {
+        height: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        z-index: 1100;
+    }
+
+    .swal2-container {
+        z-index: 10000000000000;
+    }
+    #ui-id-2 {
+        z-index:10000000;
+    }
+
+    .modaltoprow {
+        background:#19B6D7;
+        margin-bottom:10px;
+    }
+    .modaltoprow label {
+        color:#fff;
+        line-height:29px;
+        margin-bottom:0px;
+        padding-top:4px;
+    }
+    /*.modaltoprow #rInvoiceNumber  {
+        background:#0087bb;
+        border:0px;
+        color:#fff;
+        border-left:1px solid #fff;
+        border-right:1px solid #fff;
+    }*/
+
+    .modaltoprow #rScanBarcode  {
+        background:#0087bb;
+        border:0px;
+        color:#fff;
+        border-left:1px solid #fff;
+        border-right:1px solid #fff;
+    }
+    
+
+    .modaltoprow #rInvoiceAgainstBarcode  {
+        background:#0087bb;
+        border:0px;
+        color:#fff;
+        border-left:1px solid #fff;
+        border-right:1px solid #fff;
+    }
+
+    .refundresultmodal {
+        background:#0087BB;
+    }
+    .refundresultmodal label {
+        color:#fff;
+    }
+    #mainmodalcon .modal-header {
+        padding:6px 0px;
+    }
+    #mainmodalcon .modal-body {
+        padding:10px 15px 0px;
+    }
+    #mainmodalcon .modal-footer {
+        padding:10px 15px;
+        margin-top:10px;
+    }
+    #innerconsalescreen #innerinvoiceno {
+        padding-right:0px;
+    }
+    .modaltoprow #rInvoiceNumber::-moz-placeholder {
+        color:#fff;
+    }
+    #innerconsalescreen #innerinvoiceno label, #innerconsalescreen #innercustno label {
+        line-height:30px;
+    }
+    #innerconsalescreen #invno {
+        font-size: 20px;
+        line-height: 30px;
+        position: relative;
+        display: block;
+    }
+</style>
+
+<div class="col-lg-12 col-md-12 col-sm-12">
+    <div class="row" id="innerconsalescreen">
+        <div class="col-md-1 line_30" id="innerinvoiceno">
+            <label>Invoice #</label>
+        </div>
+        <div class="col-md-2 line_30 fa-2x">
+            <label id="invno" name="invno"></label>
+        </div>
+
+        <div class="col-md-1 line_30" id="innercustno">
+            <label>Customer:</label>
+        </div>
+        <div class="col-md-2">
+            <select id="Customer" name="Customer"></select>
+        </div>
+        <div class="col-lg-2" style="text-align: center;">
+            <a href="#"><label class="btn btn-danger btn-sm" id="Refund"><i class="fa fa-bitbucket "></i>&nbsp;Refund</label></a>
+        </div>
+
+        <div class="col-md-4">
+            <label class="alignright fa-2x pull-right" style="margin-right: 13px;" id="CustomerBalance"></label>
+        </div>
+
+    </div>
+
+    <hr style="margin-top: 0px !important; margin-bottom: 10px; background-color: #23527C; border-color: #23527C;" />
+    <!-- for grid menu--->
+    <div class="row">
+    <div class="col-lg-9 col-md-9 col-sm-9">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <input type="text" id="Barcode" name="Barcode" class="form-control" placeholder="Scan Barcode" />
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <input type="text" id="articleName" name="articleName" class="form-control" placeholder="Provide Article" />
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden">
+                <input type="text" id="ItemQty" name="ItemQty" class="form-control" placeholder="Provide Quantity" style="text-align:right;" />
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 hidden">
+                <input type="text" id="iDiscount" name="iDiscount" class="form-control" placeholder="Provide Quantity" style="text-align:right;" />
+            </div>
+            @*<div class="col-md-3 alignright">
+                    <select id="Paymethod" name="Paymethod" required="required" class="form-control chzn" ></select>
+                </div>*@
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12" style="margin-left: -34px;">
+                <table id="tblAppendGrid" style="margin-top: 15px;"></table>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3" style="background-image: url('../../Images/bg-white-lock.png'); background-color: #ddd; padding:10px; border-radius: 5px;">
+        <div class="row" id="RefDiv" hidden>
+            <div class="col-md-6">
+                <label>Refrence:</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="Refrence" name="Refrence" class="form-control" placeholder="Refrence" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label>Total Quantity:</label>
+            </div>
+            <div class="col-md-4">
+                <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="lbltotalqty">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label>Sub Total:</label>
+            </div>
+            <div class="col-md-4">
+                <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="lblsubtotal">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label>Item Discount:</label>
+            </div>
+            <div class="col-md-4">
+                <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="lblItemsDiscount">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <label>Total After Discount:</label>
+            </div>
+            <div class="col-md-4">
+                <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="lbllblSubTotalAfterItemsDisc">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 line_30">
+                <label>Discount:</label>
+            </div>
+            <div class="col-md-10">
+                <input type="text" id="discount" name="discount" style="text-align:right; width: 70px; margin-left: 5px; padding: 0px 10px 0px 0px;" class="form-control pull-right fa-2x" value="0" />
+                <select id="disctype" name="disctype" required="required" class="form-control pull-right" style="width:100px;">
+                    <option value="1">Amount</option>
+                    <option value="2">Percentage</option>
+                </select>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-6 line_30">
+                <label>Adjustment :</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="adjust" name="adjust" class="form-control fa-2x pull-right" style="text-align:right; padding: 0px 10px 0px 0px;" value="0" />
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-6 line_30">
+                <label>Total :</label>
+            </div>
+            <div class="col-md-6">
+                <label class="fa-2x pull-right" style="margin-right: 0px;" id="lblTotalAfterDisc">0</label>
+            </div>
+        </div>
+        <div class="row hidden">
+            <div class="col-md-6 line_30">
+                <label>Rent:</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="rent" name="rent" class="form-control fa-2x " style="text-align:right" value="0" />
+            </div>
+        </div>
+        <div class="row hidden">
+            <div class="col-md-6 line_30">
+                <label>Net Total :</label>
+            </div>
+            <div class="col-md-6">
+                <label class="alignright fa-2x " style="margin-right: 13px;" id="lblTotalAfterRent">0</label>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-6 line_30">
+                <label>Received:</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="received" name="received" class="form-control fa-2x" style="text-align:right; padding: 0px 10px 0px 0px;" value="0" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 line_30">
+                <label>Change:</label>
+            </div>
+            <div class="col-md-6">
+                <label class="fa-2x pull-right" style="margin-right: 0px;" id="change">0</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-4" style="text-align: center;">
+                    <a href="#" id="printbill"><i class="fa fa-print fa-5x"></i></a>
+                </div>
+                <div class="col-lg-4" style="text-align: center;">
+                    <a href="#" id="refresh"><i class="fa fa-refresh fa-5x"></i></a>
+                </div>
+                <div class="col-lg-4" style="text-align: center;">
+                    <a href="#" id="reprint"><i class="fa fa-file fa-5x"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+@*Model Start*@
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-body" role="document">
+        <div class="modal-content" id="mainmodalcon">
+            <div class="modal-header">
+                <div class="col-lg-6">
+                    <h3 class="modal-title" id="myModalLabel">Bill Reversal</h3>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#" id="btnClose"><i class="fa fa-close pull-right fa-2x" title="Close" data-dismiss="modal"></i></a>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="row modaltoprow">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="col-md-1 line_30">
+                                    <label>Barcode  </label>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-sm-1 line_30 hidden">
+                                    <input type="text" id="rInvoiceNumber" name="rInvoiceNumber" class="form-control" placeholder="Enter Invoice #" />
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 line_30">
+                                    <input type="text" id="rScanBarcode" name="rScanBarcode" class="form-control" placeholder="Scan Barcode" />
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 line_30 InvoicesLoad" hidden>
+                                    <input type="text" id="rInvoiceAgainstBarcode" name="rInvoiceAgainstBarcode" class="form-control" placeholder="Enter Invoice #" />
+                                </div>
+                                
+                                <div class="col-md-3 hidden">
+                                    <input type="text" id="rCustomerId" />
+                                </div>
+                                <div class="col-md-2">
+                                    <label id="rCustomerName"></label>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 col-sm-4 hidden">
+                                    <input type="text" id="rItemQty" name="rItemQty" class="form-control" placeholder="Provide Quantity" style="text-align:right;" />
+                                </div>
+
+                                <div class="col-md-3 hidden">
+                                    <label id="rPreOrCurrentCustomer"></label>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label id="rCustomerType"></label>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <label id="rCustomerBalance"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- for grid menu--->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="col-lg-9 col-md-9 col-sm-9">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <table id="rtblAppendGrid"></table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-3 col-sm-3 refundresultmodal" style="background-image: url('../../Images/bg-white-lock.png'); background-color: #0087BB; padding:10px; border-radius: 5px;">
+                                    <div class="row" id="rRefDivModel" hidden>
+                                        <div class="col-md-6">
+                                            <label>Refrence:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="rRefrence" name="rRefrence" class="form-control" placeholder="Refrence Name" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <label>Total Quantity:</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="rlbltotalqty">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <label>Sub Total:</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="rlblsubtotal">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <label>Item Discount:</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="rlblItemsDiscount">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <label>Total After Discount:</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label class="alignright fa-2x pull-right" style="margin-right: 0px;" id="rlbllblSubTotalAfterItemsDisc">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="row hidden">
+                                        <div class="col-md-2 line_30">
+                                            <label>Discount:</label>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <input type="text" id="rdiscount" name="rdiscount" style="text-align:right; width: 70px; margin-left: 5px; padding: 0px 10px 0px 0px;" class="form-control pull-right fa-2x" value="0" />
+                                            <select id="rdisctype" name="rdisctype" required="required" class="form-control pull-right" style="width:100px;">
+                                                <option value="1">Amount</option>
+                                                <option value="2">Percentage</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row hidden">
+                                        <div class="col-md-6 line_30">
+                                            <label>Adjustment :</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="radjust" name="radjust" class="form-control fa-2x pull-right" style="text-align:right; padding: 0px 10px 0px 0px;" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 line_30">
+                                            <label>Refund Total :</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="fa-2x pull-right" style="margin-right: 0px;" id="rlblTotalAfterDisc">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="row hidden">
+                                        <div class="col-md-6 line_30">
+                                            <label>Rent:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="rrent" name="rrent" class="form-control fa-2x " style="text-align:right" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="row hidden">
+                                        <div class="col-md-6 line_30">
+                                            <label>Net Total :</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="alignright fa-2x " style="margin-right: 13px;" id="rlblTotalAfterRent">0</label>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="row hidden">
+                                        <div class="col-md-6 line_30">
+                                            <label>Received:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="rreceived" name="rreceived" class="form-control fa-2x" style="text-align:right; padding: 0px 10px 0px 0px;" value="0" />
+                                        </div>
+                                    </div>
+                                    <div class="row hidden">
+                                        <div class="col-md-6 line_30">
+                                            <label>Change:</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label class="fa-2x pull-right" style="margin-right: 0px;" id="rchange">0</label>
+                                        </div>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="pull-right">
+                            <div id="rprintbill" name="rprintbill" class="btn btn-primary">Refund Selected Items</div>
+                            @*<div id="rFullRefund" name="rFullRefund" class="btn btn-primary">Refund Complete Bill</div>*@
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../Assets/PagesJS/SaleScreen.js"></script>
+<script src="../Assets/PagesJS/SaleScreenRefundModel.js"></script>

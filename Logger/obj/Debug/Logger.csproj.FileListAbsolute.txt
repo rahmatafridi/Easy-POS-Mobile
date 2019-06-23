@@ -1,0 +1,38 @@
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\Logger\bin\Debug\Logger.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\Logger\bin\Debug\Logger.pdb
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\Logger\obj\Debug\Logger.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\PointOfSale\Logger\obj\Debug\Logger.pdb
+D:\SVN\BismillahMobile\Logger\bin\Debug\Logger.dll
+D:\SVN\BismillahMobile\Logger\bin\Debug\Logger.pdb
+D:\SVN\BismillahMobile\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\SVN\BismillahMobile\Logger\obj\Debug\Logger.dll
+D:\SVN\BismillahMobile\Logger\obj\Debug\Logger.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\Logger\bin\Debug\Logger.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\Logger\bin\Debug\Logger.pdb
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\Logger\obj\Debug\Logger.dll
+D:\Webixoft New\RecieptChange\BISMILLAH Mobile Final\BismillahMobile\Logger\obj\Debug\Logger.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\Logger\bin\Debug\Logger.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\Logger\bin\Debug\Logger.pdb
+E:\BISMILLAH Mobile Final\BismillahMobile\Logger\obj\Debug\Logger.dll
+E:\BISMILLAH Mobile Final\BismillahMobile\Logger\obj\Debug\Logger.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\Logger\bin\Debug\Logger.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\Logger\bin\Debug\Logger.pdb
+D:\Webixoft New\RecieptChange\New\BismillahMobile\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Webixoft New\RecieptChange\New\BismillahMobile\Logger\obj\Debug\Logger.dll
+D:\Webixoft New\RecieptChange\New\BismillahMobile\Logger\obj\Debug\Logger.pdb
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\EasyPOSMobile\Logger\bin\Debug\Logger.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\EasyPOSMobile\Logger\bin\Debug\Logger.pdb
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\EasyPOSMobile\Logger\obj\Debug\Logger.dll
+E:\Webixoft Dropbox\Dropbox\webixoft projects data\EasyPOSMobile\Logger\obj\Debug\Logger.pdb
+E:\NewWebixoft\EasyPOSMobile\Logger\bin\Debug\Logger.dll
+E:\NewWebixoft\EasyPOSMobile\Logger\bin\Debug\Logger.pdb
+E:\NewWebixoft\EasyPOSMobile\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+E:\NewWebixoft\EasyPOSMobile\Logger\obj\Debug\Logger.dll
+E:\NewWebixoft\EasyPOSMobile\Logger\obj\Debug\Logger.pdb
+C:\MyProject\EasyPOSMobile\Logger\bin\Debug\Logger.dll
+C:\MyProject\EasyPOSMobile\Logger\bin\Debug\Logger.pdb
+C:\MyProject\EasyPOSMobile\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+C:\MyProject\EasyPOSMobile\Logger\obj\Debug\Logger.dll
+C:\MyProject\EasyPOSMobile\Logger\obj\Debug\Logger.pdb

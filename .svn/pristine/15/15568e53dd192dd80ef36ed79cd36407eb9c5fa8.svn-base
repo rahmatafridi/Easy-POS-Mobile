@@ -1,0 +1,98 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="ibox">
+            <div class="ibox-heading">
+                <div class="ibox-title">
+                    <h2><i class="fa fa-cogs">&nbsp;Add/Edit Sub Category</i></h2>
+
+                </div>
+            </div>
+            <div class="ibox ibox-content">
+                <form class="form-group frmAddSubCategory">
+                    <div class="row hidden">
+                        <div class="col-log-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label>UID</label>
+                                <input type="text" id="UID" name="UID" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label>Category<span style="color:red">*</span></label>                                
+                                <select id="CategoryId" class="form-control" name="CategoryId"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label>Code <span style="color:red">*</span></label>
+                                <input type="text" id="Code" class="form-control" name="Code" disabled />
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label>Name <span style="color:red">*</span></label>
+                                <input type="text" id="Name" class="form-control" name="Name" placeholder="Enter Name" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-log-6 col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <label style="margin-top:5px">Status</label>
+                                <div class="i-checks">
+                                    <label>
+                                        <input type="checkbox" class="icheckbox_square-green" id="IsActive" name="IsActive" />
+                                        <i></i>
+                                        Is Active
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-log-6 col-mid-6 col-sm-6">
+                            <a id="btn-save" name="btn-save" class="btn btn-primary pull-right"><i class="fa fa-save">&nbsp;Save</i></a>
+                            <button type="reset" id="btn-refresh" name="btn-refresh" class="btn btn-info pull-right" style="margin-right:5px;"><i class="fa fa-refresh">&nbsp;Refresh</i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="ibox">
+            <div class="ibox-heading">
+                <div class="ibox-title">
+                    <h2><i class="fa fa-cogs">&nbsp;Sub Categories List</i></h2>
+                </div>
+            </div>
+            <div class="ibox ibox-content">
+                <table class="table table-striped table-bordered" id="tblSubCategory">
+                    <thead>
+                        <tr>
+                            <th class="hidden">UID</th>
+                            <th>Category</th>
+                            <th>Code</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Assets/PagesJS/SubCategory.js"></script>

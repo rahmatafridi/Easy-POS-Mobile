@@ -1,0 +1,135 @@
+﻿$(document).ready(function () {
+    $('#tblStockReport').DataTable();
+    LoadStock();
+    
+});
+
+
+$(document).on('click', '.btn-saleReport', function () {
+    $('#tblSaleReport').DataTable().destroy();
+
+    var fromdate = $("#dFrom").val()
+    var todate = $("#dTo").val()
+    var catId = $("#catgorydd").val()
+    $("#tbody").html('');
+
+    $.ajax({
+        type: "POST",
+        cache: false,
+        url: "../Reports/LoadSaleByCategoryId?FromDate=" + fromdate + "&ToDate=" + todate + "&CatId=" + catId,
+
+        processData: false,
+        contentType: false,
+        success: function (data) {
+            console.log(data);
+            if (data != "No Item") {
+                if (data != "error") {
+
+                    data = JSON.parse(data);
+                    $('#tblSaleReport').DataTable().destroy();
+                    var html = '';
+                    for (var i = 0; i < data.length; i++) {
+
+                        var obj = data[i];
+
+                        html += '<tr>';
+                        if (obj.ItemName != null) {
+                            html += '<td>' + obj.ItemName + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+
+                        if (obj.Barcode != null) {
+                            html += '<td style="text-align:center">' + obj.Barcode + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+                        if (obj.CategoryName != null) {
+                            html += '<td style="text-align:center">' + obj.CategoryName + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+                        if (obj.TotalQty != null) {
+                            html += '<td >' + obj.TotalQty + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+
+                        html += '</tr>';
+                    }
+
+                    $("#tbody").append(html);
+                }
+
+            }
+            $('#tblSaleReport').DataTable().draw();
+        }
+    });
+
+});
+
+
+var LoadStock = function () {
+    $.ajax({
+        type: "POST",
+        cache: false,
+        url: "../Reports/LoadSellingItems",
+        processData: false,
+        contentType: false,
+        success: function (data) {
+            console.log(data);
+            if (data != "No Item") {
+                if (data != "error") {
+
+                    data = JSON.parse(data);
+                    $('#tblStockReport').DataTable().destroy();
+                    var html = '';
+                    for (var i = 0; i < data.length; i++) {
+
+                        var obj = data[i];
+
+                        html += '<tr>';
+                        if (obj.ItemName != null) {
+                            html += '<td>' + obj.ItemName + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+
+                        if (obj.Barcode != null) {
+                            html += '<td style="text-align:center">' + obj.Barcode + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+                        if (obj.CategoryName != null) {
+                            html += '<td style="text-align:center">' + obj.CategoryName + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+                        if (obj.Quantity != null) {
+                            html += '<td >' + obj.Quantity + '</td>';
+                        }
+                        else {
+                            html += '<td>-</td>';
+                        }
+
+                        html += '</tr>';
+                    }
+
+                    $("#tbody").append(html);
+                }
+
+            }
+            $('#tblStockReport').DataTable().draw();
+
+        }
+    });
+}
+
+

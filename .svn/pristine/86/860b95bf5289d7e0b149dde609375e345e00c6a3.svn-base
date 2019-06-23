@@ -1,0 +1,220 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="ibox">
+            <div class="ibox-heading">
+                <div class="ibox-title">
+                    <h2><i class="fa fa-cogs">&nbsp; Items's List</i></h2>
+                </div>
+            </div>
+            <div class="ibox ibox-content">
+                <table class="table table-striped table-bordered" id="tblBarcode">
+                    <thead>
+                        <tr>
+                            <th class="hidden">UID</th>
+                            <th>Name</th>
+                            
+                            <th>Category</th>
+                            <th>Sub Category</th>
+                            <th>Unit</th>
+                            @*<th>Comment</th>*@
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="BarcodeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Barcode Printing</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <input type="hidden" id="uid" />
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span>Item </span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="article"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span>Category</span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="category"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span>Uom</span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="uom"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span>Barcode</span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="barcode"></span>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span>Quantity:</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <input type="text" id="bqty" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <span></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="IsMinsa" id="IsMinsa" value="true" class="flat" /> Print <strong>Name</strong> On Barcode
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div id="barcodeTarget" class="barcodeTarget pull-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="btnprintbarcode" class="btn btn-primary">Print Barcode</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="AssignBarcodeModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Generate Barcode</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        
+                        <div class="row row-height" id="gb_message_div">                            
+                            <div class="col-lg-12 col-md-12 PopupErrorDiv">
+                                <span id="gb_message"></span>
+                            </div>
+                        </div>
+                        
+                        <input type="hidden" id="gb_uid" />
+                        
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span ><strong>Item:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="gb_article"></span>                                
+                            </div>
+                        </div>
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Category:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="gb_category"></span>
+                            </div>
+                        </div>
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Sub Category:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="gb_subcategory"></span>
+                            </div>
+                        </div>
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Unit Of Measure:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="gb_uom"></span>
+                            </div>
+                        </div>
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Barcode Type:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <span id="gb_barcode"></span>
+                                <select id="BTypeId" class="form-control" name="BTypeId">
+                                    <option value="1" selected>Auto Barcode</option>
+                                    <option value="2">Manual Barcode</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row row-height">
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Barcode:</strong></span>
+                            </div>
+                            <div class="col-lg-8 col-md-8">
+                                <input type="text" id="gb_barcode_value" name="gb_barcode_value" />
+                            </div>
+                        </div>
+                        <div class="row row-height ColorOnMobile" hidden>
+                            <div class="col-lg-4 col-md-4">
+                                <span><strong>Color:</strong></span>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <span id="gb_Color"></span>
+                                <select id="ColorId" class="form-control" name="ColorId">
+                                   
+                                </select>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>                                               
+                    </div>                    
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="btnsavebarcode" class="btn btn-primary">Save</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<link href="~/Plugins/BarcodeGenerator/jquerysctipttop.css" rel="stylesheet" />
+<script src="~/Plugins/BarcodeGenerator/jquery-latest.min.js"></script>
+<script src="~/Plugins/BarcodeGenerator/jquery-barcode.min.js"></script>
+
+<script src="~/Assets/PagesJS/BarcodeManagement.js"></script>

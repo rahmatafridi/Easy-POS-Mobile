@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using PointOfSale.Models;
+using Newtonsoft.Json;
+
+namespace PointOfSale.Controllers
+{
+    public class DailyExpensesController : GlobalController
+    {
+        // GET: DailyExpenses
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        PointOfSaleEntities db = new PointOfSaleEntities();
+
+        public ActionResult AddExpense(DailyExpense dailyexpense)
+        {
+            var status = "error";
+            try
+            {
+                if (!Authenticated)
+                {
+                    status = "SESSION EXPIRED";
+                }
+                else
+                {
+                    dailyexpense.CreatedOn = DateTime.Now;
+                    dailyexpense.CreatedBy = ActiveUserId;
+                    dailyexpense.UID = Guid.NewGuid();
+                    dailyexpense.Status = 1;
+
+
+                    db.DailyExpenses.Add(dailyexpense);
+                    db.SaveChanges();
+                    status = JsonConvert.SerializeObject(dailyexpense);
+                }
+            }
+            catch (Exception ex)
+            {
+                ApplicationExceptionLogging(ex.Message, ex.StackTrace, "CategoryController", "AddCategory");
+            }
+
+            return Content(status);
+        }
+    }
+}

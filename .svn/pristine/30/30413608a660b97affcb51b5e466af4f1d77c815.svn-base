@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using PointOfSale.Models;
+
+namespace WebixoftBoutiqueProduction.ASPX_Pages
+{
+    public partial class Barcode : System.Web.UI.Page
+    {
+        private PointOfSaleEntities db = new PointOfSaleEntities();
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (Request["UID"] != null && Request["UID"].ToString() != "")
+            {
+                Guid? UID = Guid.Parse(Request["UID"].ToString());
+                var str = (from i in db.Items
+                           
+                           join
+                           c in db.Categories
+                           on i.CategoryId equals c.Id
+                           where i.UID == UID
+                           select
+                             new 
+                             {
+                                 UID = i.UID,
+                                 Item = i.Name,
+                                 Category = c.Name,
+                                 Barcode = i.Barcode
+                             }).ToList();
+
+                if (str != null)
+                {                    
+                    barcode.Value = str[0].Barcode;
+                    lblItem.InnerHtml = str[0].Item;
+                    lblCategory.InnerHtml = str[0].Category;
+                    if (Request["PrintName"].ToString() == "1")
+                    {
+                        trDescp.Visible = true;                        
+                    }
+                    else
+                    {
+                        trDescp.Visible = false;
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    @*<span class="label label-success pull-right">Monthly</span>*@
+                    <h5>Today's Total Sale</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 id="htodaysincome" class="no-margins"></h1>
+                    @*<div class="stat-percent font-bold text-success">98% <i class="fa fa-bolt"></i></div>*@
+                    @*<small>Total Today's Sale</small>*@
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    @*<span class="label label-primary pull-right">Today</span>*@
+                    <h5>Today's Items Sold</h5>
+                </div>
+                <div class="ibox-content">
+                    <h1 id="htodaysitems" class="no-margins"></h1>
+                    @*<div class="stat-percent font-bold text-navy">44% <i class="fa fa-level-up"></i></div>*@
+                    @*<small>Total Today's Items Sold</small>*@
+                </div>
+            </div>
+        </div>
+ 
+    </div>
+
+
+    <div class="wrapper wrapper-content animated fadeIn">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Sales Graph</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div>
+                            <canvas id="barChart" height="140"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="tabs-container">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#tab-1">Today</a></li>
+                        <li class=""><a data-toggle="tab" href="#tab-2">Week</a></li>
+                        <li class=""><a data-toggle="tab" href="#tab-3">Month</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane active">
+                            <div class="panel-body">
+                                <strong><center>Today's Top 10 Selling Items</center></strong>
+                                <br />
+                                <table id="tblday" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Item Name</th>
+                                            <th>Qty Sold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="daybody"></tbody>
+                                </table>
+
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane">
+                            <div class="panel-body">
+                                <strong><center>Weekly Top 10 Selling Items</center></strong>
+                                <br />
+                                <table id="tblweek" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Item Name</th>
+                                            <th>Qty Sold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="weekbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane">
+                            <div class="panel-body">
+                                <strong><center>Monthly  Top 10 Selling Items</center></strong>
+                                <br />
+                                <table id="tblmonth" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Item Name</th>
+                                            <th>Qty Sold</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="monthbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ChartJS-->
+
+    <script src="~/Scripts/plugins/chartJs/Chart.min.js"></script>
+    <script src="~/Assets/PagesJS/UserDashboard.js"></script>

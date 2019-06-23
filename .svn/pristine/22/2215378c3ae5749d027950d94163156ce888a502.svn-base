@@ -1,0 +1,15 @@
+﻿<div class="footer" style="background-color:#263949;">
+    <div class="pull-right">
+        <small style="color:#fff">Point Of Sale &copy; @DateTime.Now.Date.Year</small>
+        @*10GB of <strong>250GB</strong> Free.*@
+    </div>
+    <div>
+        <div class="pull-left" style="color:#fff">
+            Designed & Developed By
+            <a href="http://webixoft.net" style="text-decoration: none; color: #fff" target="_blank">
+                <span style="color:#1ABB9C">Webixoft Solutions </span>
+            </a>
+        </div>    
+    @*<strong>Copyright</strong> Example Company &copy; 2014-2017*@
+    </div>
+</div>

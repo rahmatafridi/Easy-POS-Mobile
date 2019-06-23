@@ -1,0 +1,110 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Barcode.aspx.cs" Inherits="WebixoftBoutiqueProduction.ASPX_Pages.Barcode" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <style>
+        .format {
+            margin-top: 5px;
+            margin-left: 10px;
+            width: 105px;
+            height: 90px;
+            /*border: 1px solid;*/
+        }
+        #lblDescription {
+            font-size: 12px;
+            text-align:center;
+            font-family:Candara;
+        }
+        #lblArticle {
+            font-size: 10px;
+            text-align:center;
+        }
+        #lblSize {
+            font-size: 10px;
+        }
+        #lblColor {
+            font-size: 10px;
+        }
+        .lefttd {
+        width: 50%;
+        text-align: left;
+        font-family:Candara;
+        } 
+        .righttd {
+        width: 50%;
+        text-align: right;
+        font-family:Candara;
+        }      
+    </style>
+
+
+</head>
+<body onload="printpage();">
+    <form id="form1" runat="server">
+        <div class="format">
+            <input type="hidden" id="barcode" runat="server" />
+            
+            <table>
+               
+                <tr>
+                    <td colspan="2">
+                        <div id="lblItem" runat="server"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div id="barcodeTarget" class="barcodeTarget pull-right"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lefttd">
+                     <div id="lblCategory" runat="server"></div>
+                    </td>
+                    
+                </tr>
+            </table>                        
+            
+            
+        </div>
+    </form> 
+       
+    
+    <link href="../Plugins/BarcodeGenerator/jquerysctipttop.css" rel="stylesheet" />
+    <script src="../Plugins/BarcodeGenerator/jquery-latest.min.js"></script>    
+    <script src="../Plugins/BarcodeGenerator/jquery-barcode.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            generateBarcode();
+        });
+
+        function generateBarcode() {
+
+            var value = $("#barcode").val();
+            var btype = "code128";
+            var renderer = "css";
+            var quietZone = true;
+
+            var settings = {
+                output: renderer,
+                bgColor: "#FFFFFF",
+                color: "#000000",
+                barWidth: "1",
+                barHeight: "35",
+                moduleSize: "5",
+                posX: "10",
+                posY: "20",
+                addQuietZone: "1"
+            };
+
+            value = { code: value, rect: true };
+            $("#barcodeTarget").html("").show().barcode(value, btype, settings);
+        }
+    </script>
+
+
+</body>
+</html>

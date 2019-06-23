@@ -1,0 +1,194 @@
+﻿@using PointOfSale.Helpers
+
+
+
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <span class="block m-t-xs">
+                        @*<strong class="font-bold" style="color: #fff;font-size: x-large;">Point Of Sale</strong>*@
+                        <img src="~/Images/WXPOSNavLogo.png" style="width: 180px; height:60px;" />
+                    </span>
+                </div>
+                <div class="logo-element">
+                    POS
+                </div>
+            </li>
+            @*Dashboard*@
+            @if (ViewBag.UserTypeId == 1)
+            {
+                <li class="@Html.IsSelected(controller: "UserDashboard") ">
+                    <a href="@Url.Action("Index", "UserDashboard")"><i class="fa fa-dashboard"></i><span class="nav-label">User Dashboard</span></a>
+                </li>
+            }
+            else
+            {
+                <li class="@Html.IsSelected(controller: "AdminDashboard")">
+                    <a href="@Url.Action("Index", "AdminDashboard")"><i class="fa fa-dashboard"></i><span class="nav-label">Dashboard</span></a>
+                </li>
+            }
+            @*User Management*@
+            @if (Html.UserHavePermission("UserManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "UserManagement") ">
+                    <a href="@Url.Action("index", "UserManagement")"><i class="fa fa-user"></i><span class="nav-label">User Management</span></a>
+                </li>
+            }
+            <li>
+                <a><i class="fa fa-cogs"></i> <span class="nav-label">General Entries</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    @*Category*@
+                    @if (Html.UserHavePermission("Category"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Category") ">
+                            <a href="@Url.Action("Index", "Category")"><span class="nav-label">Category Management</span></a>
+                        </li>
+                    }
+                    @*Category*@
+                    @if (Html.UserHavePermission("SubCategory"))
+                    {
+                        <li class="@Html.IsSelected(controller: "SubCategory") ">
+                            <a href="@Url.Action("Index", "SubCategory")"><span class="nav-label">Sub Category Mgmt.</span></a>
+                        </li>
+                    }
+                    @*UOM*@
+                    @if (Html.UserHavePermission("UnitOfMeasureManagement"))
+                    {
+                        <li class="@Html.IsSelected(controller: "UnitOfMeasureManagement") ">
+                            <a href="@Url.Action("Index", "UnitOfMeasureManagement")"><span class="nav-label">UOM Management</span></a>
+                        </li>
+                    }
+                    @*Size*@
+                    @if (Html.UserHavePermission("Size"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Size") ">
+                            <a href="@Url.Action("Index", "Size")"><span class="nav-label">Size Management</span></a>
+                        </li>
+                    }
+                    @*Color*@
+                    @if (Html.UserHavePermission("ColorManagement"))
+                    {
+                        <li class="@Html.IsSelected(controller: "ColorManagement") ">
+                            <a href="@Url.Action("Index", "ColorManagement")"><span class="nav-label">Color Management</span></a>
+                        </li>
+                    }
+                </ul>
+            </li>
+            @*Item*@
+            @if (Html.UserHavePermission("ItemManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "ItemManagement") ">
+                    <a href="@Url.Action("Index", "ItemManagement")"><i class="fa fa-tags"></i><span class="nav-label">Product Management</span></a>
+                </li>
+            }
+
+            @*Barcode*@
+            @if (Html.UserHavePermission("BarcodeManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "BarcodeManagement") ">
+                    <a href="@Url.Action("Index", "BarcodeManagement")"><i class="fa fa-barcode"></i><span class="nav-label">Barcode Print</span></a>
+                </li>
+            }
+
+            @if (Html.UserHavePermission("CustomerManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "CustomerManagement")">
+                    <a href="@Url.Action("Index", "CustomerManagement")"><i class="fa fa-users"></i><span class="nav-label">Customer Management</span></a>
+                </li>
+                <li class="@Html.IsSelected(controller: "CustomerManagement")">
+                    <a href="@Url.Action("Payments", "CustomerManagement")"><i class="fa fa-users"></i><span class="nav-label">Customer Payment</span></a>
+                </li>
+            }
+
+
+            @if (Html.UserHavePermission("VendorManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "VendorManagement")">
+                    <a href="@Url.Action("Index", "VendorManagement")"><i class="fa fa-users"></i><span class="nav-label">Vendor Management</span></a>
+                </li>
+                <li class="@Html.IsSelected(controller: "VendorManagement")">
+                    <a href="@Url.Action("Payments", "VendorManagement")"><i class="fa fa-users"></i><span class="nav-label">Vendor Payments</span></a>
+                </li>
+            }
+            @if (Html.UserHavePermission("PurchaseOrderManagement"))
+            {
+                <li class="@Html.IsSelected(controller: "PurchaseOrderManagement")">
+                    <a href="@Url.Action("Index", "PurchaseOrderManagement")"><i class="fa fa-shopping-cart"></i><span class="nav-label">Purchase Management</span></a>
+                </li>
+            }
+            @*@if (Html.UserHavePermission("StockTransfer"))
+            {
+                <li class="@Html.IsSelected(controller: "StockTransfer")">
+                    <a href="@Url.Action("Index", "StockTransfer")"><i class="fa fa-truck"></i><span class="nav-label">Stock Transfer</span></a>
+                </li>
+            }*@
+            @if (Html.UserHavePermission("SaleScreen"))
+            {
+                <li class="@Html.IsSelected(controller: "SaleScreen")">
+                    <a href="@Url.Action("Index", "SaleScreen")"><i class="fa fa-laptop"></i><span class="nav-label">Sale Screen</span></a>
+                </li>
+            }
+            <li>
+                <a><i class="fa fa-file-pdf-o"></i> <span class="nav-label">Reports</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    @if (Html.UserHavePermission("POReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "Index")">
+                            <a href="@Url.Action("Index", "Reports")"><span class="nav-label">PO Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("TransferReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "TransferIndex")">
+                            <a href="@Url.Action("TransferIndex", "Reports")"><span class="nav-label">Issuance Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("SaleReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "SaleDetailView")">
+                            <a href="@Url.Action("SaleDetailView", "Reports")"><span class="nav-label">Sale Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("ReversalReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "RefundStockIndex")">
+                            <a href="@Url.Action("RefundStockIndex", "Reports")"><span class="nav-label">Reversal Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("SaleReportByCategory"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "SaleIndex")">
+                            <a href="@Url.Action("SaleIndex", "Reports")"><span class="nav-label">Category Sale Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("StockInHandReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "StockIndex")">
+                            <a href="@Url.Action("StockIndex", "Reports")"><span class="nav-label">Stock InHand Report</span></a>
+                        </li>
+                    }
+                    
+                    @*assign proper rights below*@
+                    
+                    @if (Html.UserHavePermission("StockInHandReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "StockIndex")">
+                            <a href="@Url.Action("CustomerIndex", "Reports")"><span class="nav-label">Customer Report</span></a>
+                        </li>
+                    }
+                    @if (Html.UserHavePermission("StockInHandReport"))
+                    {
+                        <li class="@Html.IsSelected(controller: "Reports", action: "StockIndex")">
+                            <a href="@Url.Action("VendorIndex", "Reports")"><span class="nav-label">Vendor Report</span></a>
+                        </li>
+                    }
+
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>

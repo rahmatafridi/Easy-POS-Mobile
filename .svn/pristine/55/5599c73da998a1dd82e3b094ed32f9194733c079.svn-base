@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PointOfSaleModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ApplicationLogging">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Message" Type="varchar(max)" />
+    <Property Name="StackTrace" Type="varchar(max)" />
+    <Property Name="Application" Type="varchar(max)" />
+    <Property Name="Controller" Type="varchar(max)" />
+    <Property Name="Method" Type="varchar(max)" />
+    <Property Name="CreatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="AssignedPermission">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="bigint" />
+    <Property Name="PermissionId" Type="bigint" />
+    <Property Name="CreatedBy" Type="bigint" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="AvailablePermission">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ViewName" Type="varchar" MaxLength="100" />
+    <Property Name="Description" Type="varchar" MaxLength="100" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Barcode">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+    <Property Name="SubCategoryId" Type="int" Nullable="false" />
+    <Property Name="ItemId" Type="int" Nullable="false" />
+    <Property Name="BarcodeType" Type="int" Nullable="false" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="UID" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedOn" Type="datetime" Nullable="false" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="ColorId" Type="int" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+  </EntityType>
+  <EntityType Name="ClientDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="200" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Colors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Contact" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar" MaxLength="50" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="OpeningBalance" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="IsResaler" Type="bit" />
+  </EntityType>
+  <EntityType Name="CustomerPaymentLogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SoNumber" Type="varchar" MaxLength="50" />
+    <Property Name="EntryType" Type="int" />
+    <Property Name="EntryDate" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="Comment" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethode" Type="int" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CustomerPaymentId" Type="int" />
+  </EntityType>
+  <EntityType Name="CustomerPayments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SoNumber" Type="varchar" MaxLength="50" />
+    <Property Name="EntryType" Type="int" />
+    <Property Name="EntryDate" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="Comment" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethode" Type="int" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="DiscountOnBrands">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubCatId" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="Discount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="EntryTypeLookUp">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="ItemPurchaseDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="ColorId" Type="int" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="IPMId" Type="int" />
+    <Property Name="Quantity" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Rate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="SaleRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SaleAmount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Expired" Type="datetime" />
+    <Property Name="Batch" Type="varchar" MaxLength="50" />
+    <Property Name="SubCategoryId" Type="int" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="ItemPurchaseMain">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PurchaseOrderNo" Type="varchar" MaxLength="50" />
+    <Property Name="PurchaseOrderDate" Type="datetime" />
+    <Property Name="VendorId" Type="int" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="Comments" Type="varchar(max)" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="IsPosted" Type="bit" />
+  </EntityType>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="SubCategoryId" Type="int" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="ColorId" Type="int" />
+    <Property Name="SizeId" Type="int" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+    <Property Name="CostPrice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SalePrice" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Type" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="PaymentMethodsLookup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="RefundDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RMId" Type="int" />
+    <Property Name="RItemId" Type="int" />
+    <Property Name="RBarcode" Type="varchar" MaxLength="50" />
+    <Property Name="RUomId" Type="int" />
+    <Property Name="RQty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RPrice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RAmount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RAmountAfterDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="CreatedByIP" Type="varchar" MaxLength="50" />
+    <Property Name="UpdatedByIP" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="RefundMain">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="InvoiceNo" Type="varchar" MaxLength="50" />
+    <Property Name="RQty" Type="int" />
+    <Property Name="RSubTotal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RItemDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RTotalAfterDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RBillDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RBillDiscountType" Type="int" />
+    <Property Name="RAdjustment" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RNetTotal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RRecieved" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="RChange" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="CreatedByIP" Type="varchar" MaxLength="50" />
+    <Property Name="UpdatedByIP" Type="varchar" MaxLength="50" />
+    <Property Name="RefundType" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CustomerId" Type="int" />
+  </EntityType>
+  <EntityType Name="SaleDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SMId" Type="int" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="Barcode" Type="varchar" MaxLength="50" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="Qty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Discount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="AmountAfterDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="RefundStatus" Type="bit" />
+    <Property Name="RefundQty" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="SaleMain">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerId" Type="int" />
+    <Property Name="InvoiceNo" Type="varchar" MaxLength="50" />
+    <Property Name="TotalQty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SubTotal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="ItemDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="TotalAfterDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="BillDiscount" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="BillDiscountType" Type="int" />
+    <Property Name="Adjustment" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="NetTotal" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Recieved" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Change" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="Refrence" Type="varchar" MaxLength="50" />
+    <Property Name="IsPartialRefund" Type="bit" />
+  </EntityType>
+  <EntityType Name="SellingItems">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="Quantity" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CostRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SaleRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Sizes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+  </EntityType>
+  <EntityType Name="SubCategories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UnitOfMeasure">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="200" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsAssigned" Type="bit" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="200" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar(max)" />
+    <Property Name="Email" Type="varchar" MaxLength="200" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="UserTypeId" Type="int" />
+  </EntityType>
+  <EntityType Name="UserTypeLookup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Contact" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="Address" Type="varchar(max)" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="OpeningBalance" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="VendorPaymentLogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PoNumber" Type="varchar" MaxLength="50" />
+    <Property Name="EntryType" Type="int" />
+    <Property Name="EntryDate" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="Comment" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethode" Type="int" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+    <Property Name="VendorPaymentId" Type="int" />
+  </EntityType>
+  <EntityType Name="VendorPayments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VendorId" Type="int" />
+    <Property Name="Debit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Credit" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PoNumber" Type="varchar" MaxLength="50" />
+    <Property Name="EntryType" Type="int" />
+    <Property Name="EntryDate" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="Comment" Type="varchar" MaxLength="50" />
+    <Property Name="PaymentMethode" Type="int" />
+    <Property Name="ChequeNo" Type="varchar" MaxLength="50" />
+    <Property Name="ChequeDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="IsActive" Type="bit" />
+  </EntityType>
+  <EntityType Name="Warehouse">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="ColorId" Type="int" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="QtyGiven" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="QtyAvailable" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CostRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SaleRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="UID" Type="uniqueidentifier" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="Expired" Type="datetime" />
+    <Property Name="Batch" Type="varchar" MaxLength="50" />
+    <Property Name="SubCategoryId" Type="int" />
+  </EntityType>
+  <EntityType Name="WarehouseTransfer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ItemId" Type="int" />
+    <Property Name="Barcode" Type="varchar" MaxLength="200" />
+    <Property Name="CategoryId" Type="int" />
+    <Property Name="UomId" Type="int" />
+    <Property Name="CostRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="SaleRate" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="AvailableQty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="IssueQty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="BalanceQty" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="WtmId" Type="int" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="SubCategoryId" Type="int" />
+  </EntityType>
+  <EntityType Name="WarehouseTransferMain">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TransactionNo" Type="varchar" MaxLength="50" />
+    <Property Name="TransferDate" Type="datetime" />
+    <Property Name="LocationId" Type="int" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="UpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="UID" Type="uniqueidentifier" />
+  </EntityType>
+  <Function Name="GetDiscount" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="int" Mode="In" />
+    <Parameter Name="Barcode" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetProductDetailsByBarcode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Barcode" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GetTop10MostSellingItems" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Duration" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetUserPermissions" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UserID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InsertGenerator" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tableName" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="InvoiceDetail" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BillId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InvoiceDetailForRefund" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BillId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InvoiceDetailForReseller" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="BillId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="LoadProductBarcode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="LoadProductBarcodeByUID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UID" Type="uniqueidentifier" Mode="In" />
+  </Function>
+  <Function Name="LoadProductBarcodeByUIDandBarcode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="UID" Type="uniqueidentifier" Mode="In" />
+    <Parameter Name="Barcode" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="ProductDetailsByBarcode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Barcode" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="PointOfSaleModelStoreContainer">
+    <EntitySet Name="ApplicationLogging" EntityType="Self.ApplicationLogging" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AssignedPermission" EntityType="Self.AssignedPermission" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AvailablePermission" EntityType="Self.AvailablePermission" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Barcode" EntityType="Self.Barcode" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClientDetail" EntityType="Self.ClientDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Colors" EntityType="Self.Colors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerPaymentLogs" EntityType="Self.CustomerPaymentLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerPayments" EntityType="Self.CustomerPayments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DiscountOnBrands" EntityType="Self.DiscountOnBrands" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EntryTypeLookUp" EntityType="Self.EntryTypeLookUp" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ItemPurchaseDetail" EntityType="Self.ItemPurchaseDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ItemPurchaseMain" EntityType="Self.ItemPurchaseMain" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaymentMethodsLookup" EntityType="Self.PaymentMethodsLookup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RefundDetail" EntityType="Self.RefundDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RefundMain" EntityType="Self.RefundMain" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SaleDetail" EntityType="Self.SaleDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SaleMain" EntityType="Self.SaleMain" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SellingItems" EntityType="Self.SellingItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sizes" EntityType="Self.Sizes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubCategories" EntityType="Self.SubCategories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UnitOfMeasure" EntityType="Self.UnitOfMeasure" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserTypeLookup" EntityType="Self.UserTypeLookup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendor" EntityType="Self.Vendor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorPaymentLogs" EntityType="Self.VendorPaymentLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VendorPayments" EntityType="Self.VendorPayments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Warehouse" EntityType="Self.Warehouse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WarehouseTransfer" EntityType="Self.WarehouseTransfer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WarehouseTransferMain" EntityType="Self.WarehouseTransferMain" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

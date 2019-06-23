@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = null;
+}
+
+<style>
+    .ibox-content {
+    background-color: transparent !important;
+    background-image: url('../Images/bg-white-lock.png');
+    color: inherit;
+    padding: 10px 20px 30px 20px;
+    border-color: #e7eaec;  
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+</style>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Webixoft Solutions | Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/WXCustomStyles.css" rel="stylesheet" />
+</head>
+<body style="background-image: url('../../Images/POSBG.jpg'); background-repeat: no-repeat; background-position: center;background-size: cover;width: 100%;height: 100%;">
+    <div class="Bottom">
+        <center>
+            @*<img src="~/Images/logo2.png" style="width: 325px; height:100px;" />*@
+        </center>
+        <div class="loginColumns animated fadeInDown">
+            <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                <div class="ibox">
+                    <div class="ibox-content BorderStyle">
+                        <div style="margin: 40px;"></div>
+                        @*<center style="padding-bottom: 10px; padding-top: -20px !important;"><h2 style="color:white; font-weight: bold;">POINT OF SALE</h2></center>*@            
+                        <section class="login_content">
+                            @using (Html.BeginForm("UserLogin", "Authentication", FormMethod.Post, new { @class = "login-form" }))
+                            {
+                                @*<form class="m-t" role="form">*@
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="User Name" id="UserName" name="UserName" required="required" autofocus >
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Password" id="Password" name="Password" required="required">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+
+                                    @*<a href="#">
+                                            <small>Forgot password?</small>
+                                        </a>*@
+                                @*</form>*@
+                                        <p class="m-t">
+                                            <div style="text-align:center; color: #18A689;"><small>Point Of Sale &copy; @DateTime.Now.Date.Year</small> </div>
+                                        </p>
+                                       
+                            }
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/jquery.min.js"></script>
+</body>
+</html>
+
